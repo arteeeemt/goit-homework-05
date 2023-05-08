@@ -80,10 +80,12 @@ align-items: center;
 .list-link:hover,
 .list-link:focus{
     color:var(--btn-hover);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-list:hover,
 .address-list:focus{
 color:var(--btn-hover); 
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 .link {
 text-decoration: none;
@@ -102,12 +104,14 @@ padding-bottom: 24px;
 .list-link:hover,
 .list-link:focus {
 color:var(--btn-hover);
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
 
 .address-menu:hover,
 .address-menu:focus{
 color: var(--btn-hover);
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .address-list{
@@ -143,6 +147,7 @@ color:var(--list-color)
 .list-menu:hover,
 .list-menu:focus{
     color:var(--btn-hover);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero{
@@ -195,6 +200,7 @@ margin: 0px auto;
 .hero-btn:focus {
 background-color:var(--btn-hover);
 cursor: pointer;
+
 }
 
 .strengths-title{
@@ -244,6 +250,7 @@ justify-content: center;
 
 .icons-link:hover,:focus.icons-link{
 background-color:#404BBF;    
+
 }
 
 .strengths{
@@ -407,6 +414,8 @@ font-family: 'Roboto';
 .customers-link:focus {
     border-color: #404bbf;
     color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .customers-icon {
@@ -416,6 +425,7 @@ font-family: 'Roboto';
 .customers-icon:hover,
 .customers-icon:focus {
     fill: #404bbf;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer {
 background-color:var(--span-color);
@@ -478,6 +488,9 @@ border: 1px solid transparent;
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
         0px 2px 1px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
 }
 
 .portfolio-item__title{
@@ -549,6 +562,8 @@ color:var(--list-color);
     background-color: var(--btn-hover);
     cursor: pointer;
     color:var(--bg-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
    
 }
 
