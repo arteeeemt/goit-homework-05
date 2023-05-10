@@ -688,7 +688,7 @@ background-color:#31D0AA;
     background-color: #31D0AA;
 }
 
-backdrop {
+.backdrop {
     position: fixed;
     top: 0;
     left: 0;
